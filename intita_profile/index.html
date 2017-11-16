@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://intita.com/api/dist/intita-api-client.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Профиль пользователя</title>
+</head>
+<body>
+    <div class="container-fluid wrapper">
+        <div class="row">
+            <div class="main_block">
+                <div class="container-fluid">
+                    <div class="row mainarea">
+                        <div class="col-lg-4">
+                            <div class="photo_wrapper "><img id = "image" class="photo img-circle"></div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="h2 font-weight-bold username"><strong id = "name"></strong></div>
+                            <div class="h4 course" id="courses"></div>
+                            <div class="col-lg-offset-2 h6 show_modules_lable" id="show_modules">показать подробности</div>
+                            <div>
+                                <ul id="modules">
+
+                                </ul>
+
+                            </div>
+                            <hr>
+                            <div class="info_block container-fluid">
+                                <div class="row">
+                                    <div class="col-lg-4"><strong>АДРЕС</strong></div>
+                                    <div class="col-lg-8" id = "adress"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4"><strong>ОБРАЗОВАНИЕ</strong></div>
+                                    <div class="col-lg-8" id = "edu"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4"><strong>ПОЧТА</strong></div>
+                                    <div class="col-lg-8" id = "email"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4"><strong>ТЕЛЕФОН</strong></div>
+                                    <div class="col-lg-8" id = "phone"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4"><strong>SKYPE</strong></div>
+                                    <div class="col-lg-8" id = "skype"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4"><strong>ИНТЕРЕСЫ</strong></div>
+                                    <div class="col-lg-8" id = "interests"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4"><strong>О СЕБЕ</strong></div>
+                                    <div class="col-lg-8" id = "about"></div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="links_block">
+                <div class="col-md-offset-1 col-md-5 social_label">Социальные сети:</div>
+                <a id = "facebook" href="#" class="facebook col-md-2 "><img src="images/facebook.png" alt="Пример"></a>
+                <a id = "vk" href="#" class="vk col-md-2"><img src="images/vk.png" alt="Пример"></a>
+                <a id = "google" href="#" class="google_plus col-md-2"><img src="images/google-plus.png" alt="Пример"></a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="js/net.js"></script>
+
+
+</html>
